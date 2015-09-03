@@ -1,16 +1,31 @@
-body{
+body {
   background-color: black;
+  background-size: 100%;
 }
 
-#temperature{
+h1 {
+  color: black;
+  text-shadow: #222 0.1em 0.1em 0.2em;
+  margin-top: 10%;
+}
+
+#temperature {
   color: white;
   margin-bottom: 25px;
+  text-shadow: black 0.1em 0.1em 0.2em;
 }
 
-.details{
-  background-color: rgba(255,255,255,0.6);
+.details {
+  background-color: rgba(255, 255, 255, 0.6);
   padding: 2% 1% 2% 1%;
   border: 1px solid white;
   border-radius: 5px;
-  
+}
+
+#details {
+  padding: 2% 1% 2% 1%;
+}
+
+#units-button {
+  margin-top: 25px;
 }
