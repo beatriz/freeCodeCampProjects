@@ -1,0 +1,15 @@
+#timer-wrapper{
+    border: 5px solid green;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    text-align: center; 
+}
+
+/*
+.pomodoro-timer{
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}*/
