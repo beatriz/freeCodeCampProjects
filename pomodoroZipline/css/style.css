@@ -1,11 +1,36 @@
 #timer-wrapper{
-    border: 5px solid green;
+    border: 3px solid green;
     border-radius: 100%;
     width: 100px;
     height: 100px;
     margin: 0 auto;
-    text-align: center; 
+    text-align: center;
+    position: relative;
+    background-color: #fff;
+    z-index: 5;
+    overflow: hidden;
 }
+
+/*.pomodoro-timer{
+  z-index: 5;
+}*/
+
+#background{
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background-color: #0a0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 100%;
+}
+
+ .not-button{
+   border: none;
+   background: none;
+ }
 
 /*
 .pomodoro-timer{
