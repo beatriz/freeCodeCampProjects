@@ -10,12 +10,12 @@ var timerID,
 
 $(document).ready(function(){
     clearInterval(timerID);
-    seconds = 60;
-    pomodoroTime = 1;
-    breakTime = 1;
-    displayTime();
+    pomodoroTime = 25;
+    breakTime = 5;
+    seconds = pomodoroTime * 60;
     paused = true;
     onBreak = false;
+    displayTime();
 
     updateTime('pomodoro-time', pomodoroTime);
     updateTime('break-time', breakTime);
@@ -112,14 +112,16 @@ function displayTime(){
     if(remainingSeconds < 10) {
         remainingSeconds = "0" + remainingSeconds;
     }
-    $('.pomodoro-timer').text(minutes + ':' + remainingSeconds);
     if(onBreak){
       //$('#timer-wrapper').css('background-size', ((seconds / minToSec(breakTime))*100) + '%');
+      var indicator = "Break";
       $('#background').css('top', ((seconds / minToSec(breakTime))*100) + '%')
     } else {
       //$('#timer-wrapper').css('background-size', ((seconds / minToSec(pomodoroTime))*100) + '%');
+      var indicator = "Session";
       $('#background').css('top', ((seconds / minToSec(pomodoroTime))*100) + '%')
     }
+    $('.pomodoro-timer').html(indicator + "<br />" + minutes + ':' + remainingSeconds);
 }
 
 function updateTime(id, minutes){

@@ -4,15 +4,15 @@
         <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
         <script src="js/pomodoroScript.js"></script>
         <link rel="stylesheet" href="css/style.css">
+        <title>Pomodoro Zipline</title>
     </head>
     <body>
-        <div id="timer-wrapper" class="btn btn-default">
-            <div class="pomodoro-timer vertical-align">
-            </div>
-            <div id="background"></div>
-        </div>
-        <div id="pomodoro-time-wrapper">
-          Session length
+      <div id="content">
+
+      <h1>Pomodoro Zipline</h1>
+      <div id="lengths-wrapper">
+        <div id="pomodoro-time-wrapper" class="time-wrapper">
+          SESSION LENGTH
           <br />
           <!-- <a href="#" id="minus-pom">-</a> -->
           <button id="minus-pom" class="not-button">-</button>
@@ -20,12 +20,20 @@
           <button id="plus-pom" class="not-button">+</button>
         </div>
 
-        <div id="break-time-wrapper">
-          Break length
+        <div id="break-time-wrapper" class="time-wrapper">
+          BREAK LENGTH
           <br />
           <button id="minus-break" class="not-button">-</button>
           <span id="break-time"></span>
           <button id="plus-break" class="not-button">+</button>
         </div>
+      </div>
+
+      <div id="timer-wrapper" class="btn btn-default">
+          <div class="pomodoro-timer vertical-align">
+          </div>
+          <div id="background"></div>
+      </div>
+</div>
     </body>
 </html>
