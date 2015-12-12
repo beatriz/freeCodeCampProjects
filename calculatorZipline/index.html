@@ -1,0 +1,59 @@
+<html>
+  <head>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+      <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+      <script src="calcScript.js"></script>
+      <link rel="stylesheet" href="style.css">
+      <title>Calculator Zipline</title>
+  </head>
+  <body>
+    <div class="row">
+    <div id="calculator" class="col-md-3 col-md-offset-5">
+      <div class="row">
+        <div class="col-md-12"><div id="display">0</div></div>
+      </div>
+      <!-- <div id="buttons" class="container-flui"> -->
+        <div class="row">
+          <div class="col-md-6"><button class="btn btn-default" id="btn-ac">AC</button></div>
+          <div class="col-md-3"><button class="btn btn-default" id="btn-ce">CE</button></div>
+          <div class="col-md-3"><button class="btn btn-default btn-oper" data-oper="div">/</button></div>
+        </div>
+        <div class="row">
+          <div class="col-md-3"><button class="btn btn-default btn-num" data-number="7">7</button></div>
+          <div class="col-md-3"><button class="btn btn-default btn-num" data-number="8">8</button></div>
+          <div class="col-md-3"><button class="btn btn-default btn-num" data-number="9">9</button></div>
+          <div class="col-md-3"><button class="btn btn-default btn-oper" data-oper="times">x</button></div>
+        </div>
+        <div class="row">
+          <div class="col-md-3"><button class="btn btn-default btn-num" data-number="4">4</button></div>
+          <div class="col-md-3"><button class="btn btn-default btn-num" data-number="5">5</button></div>
+          <div class="col-md-3"><button class="btn btn-default btn-num" data-number="6">6</button></div>
+          <div class="col-md-3"><button class="btn btn-default btn-oper" data-oper="minus">-</button></div>
+        </div>
+        <div class="row">
+          <div class="col-md-9">
+            <div class="row">
+              <div class="col-md-4"><button class="btn btn-default btn-num" data-number="1">1</button></div>
+              <div class="col-md-4"><button class="btn btn-default btn-num" data-number="2">2</button></div>
+              <div class="col-md-4"><button class="btn btn-default btn-num" data-number="3">3</button></div>
+            </div>
+            <div class="row">
+              <div class="col-md-4"><button class="btn btn-default btn-num" data-number="0">0</button></div>
+              <div class="col-md-4"><button class="btn btn-default" id="btn-dot">.</button></div>
+              <div class="col-md-4"><button class="btn btn-default" id="btn-equals">=</button></div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="row">
+              <div class="col-md-12"><button class="btn btn-default btn-oper" id="btn-plus" data-oper="plus">+</button></div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>
