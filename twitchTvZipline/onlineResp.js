@@ -1,0 +1,66 @@
+{
+  "stream":
+  {
+    "_id":18261972048,
+    "game":"StarCraft: Brood War",
+    "viewers":15,
+    "created_at":"2015-12-16T10:50:27Z",
+    "video_height":768,
+    "average_fps":24.5481521446,
+    "delay":0,
+    "is_playlist":false,
+    "_links":
+    {
+      "self":"https://api.twitch.tv/kraken/streams/medrybw"
+    },
+    "preview":
+    {
+      "small":"http://static-cdn.jtvnw.net/previews-ttv/live_user_medrybw-80x45.jpg",
+      "medium":"http://static-cdn.jtvnw.net/previews-ttv/live_user_medrybw-320x180.jpg",
+      "large":"http://static-cdn.jtvnw.net/previews-ttv/live_user_medrybw-640x360.jpg",
+      "template":"http://static-cdn.jtvnw.net/previews-ttv/live_user_medrybw-{width}x{height}.jpg"
+    },
+    "channel":
+    {
+      "mature":false,
+      "status":"24/7 Classic Starcraft VoD stream 2000-2012 (6344 VoDs)",
+      "broadcaster_language":"en",
+      "display_name":"MedryBW",
+      "game":"StarCraft: Brood War",
+      "language":"en",
+      "_id":50332395,
+      "name":"medrybw",
+      "created_at":"2013-10-18T22:13:12Z",
+      "updated_at":"2015-12-16T18:17:30Z",
+      "delay":null,
+      "logo":"http://static-cdn.jtvnw.net/jtv_user_pictures/medrybw-profile_image-19fce7e1b0d6c194-300x300.jpeg",
+      "banner":null,
+      "video_banner":null,
+      "background":null,
+      "profile_banner":null,
+      "profile_banner_background_color":null,
+      "partner":false,
+      "url":"http://www.twitch.tv/medrybw",
+      "views":574796,
+      "followers":3480,
+      "_links":
+      {
+        "self":"http://api.twitch.tv/kraken/channels/medrybw",
+        "follows":"http://api.twitch.tv/kraken/channels/medrybw/follows",
+        "commercial":"http://api.twitch.tv/kraken/channels/medrybw/commercial",
+        "stream_key":"http://api.twitch.tv/kraken/channels/medrybw/stream_key",
+        "chat":"http://api.twitch.tv/kraken/chat/medrybw",
+        "features":"http://api.twitch.tv/kraken/channels/medrybw/features",
+        "subscriptions":"http://api.twitch.tv/kraken/channels/medrybw/subscriptions",
+        "editors":"http://api.twitch.tv/kraken/channels/medrybw/editors",
+        "teams":"http://api.twitch.tv/kraken/channels/medrybw/teams",
+        "videos":"http://api.twitch.tv/kraken/channels/medrybw/videos"
+      }
+    }
+  },
+  "_links":
+  {
+    "self":"https://api.twitch.tv/kraken/streams/medrybw",
+    "channel":"https://api.twitch.tv/kraken/channels/medrybw"
+  }
+}

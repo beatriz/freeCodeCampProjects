@@ -1,0 +1,43 @@
+body{
+  background-color: #C63D0F;
+}
+
+#userList{
+  background-color: #FDF3E7;
+}
+
+.user{
+  padding: 25px 25px;
+}
+
+.user .details{
+  margin-top: 15px;
+  text-align: center;
+  display: none;
+}
+
+.user .details .game{
+  line-height: 2em;
+}
+.user .details .viewers{
+  line-height: 2em;
+}
+.user .userMain .userLogo img{
+  border-radius: 50%;
+  width: 100px;
+}
+.user .userMain .username{
+  margin-left: 15px;
+}
+
+.user .userMain .status {
+  float: right;
+  line-height: 100px;
+  margin-right: 20px;
+}
+
+hr{
+  border-top-color: #C63D0F;
+  border-top-color: rgba(198,61,15,0.2);
+  width: 90%;
+}
