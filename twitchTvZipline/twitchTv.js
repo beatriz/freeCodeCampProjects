@@ -4,7 +4,7 @@
 
 $(document).ready(function docReady() {
   var usersArray = ['freecodecamp', 'storbeck', 'terakilobyte', 'habathcx', 'RobotCaleb', 'thomasballinger', 'noobs2ninjas', 'beohoff', 'medrybw'];
-  var baseUrl = 'f';
+  var baseUrl = 'https://api.twitch.tv/kraken/';
   var streamsUrl = 'streams/';
   var userUrl = 'users/'
   var callbackUrlParam = '?callback=?';
