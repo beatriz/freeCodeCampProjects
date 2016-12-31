@@ -5,6 +5,7 @@
   "devDependencies": {
     "react-scripts": "0.8.4"
   },
+  "homepage" : "http://mbeatrizmagalhaes.github.io/freeCodeCampProjects/random-quotes/",
   "dependencies": {
     "bootstrap": "^3.3.7",
     "react": "^15.4.1",
